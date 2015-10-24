@@ -1,0 +1,42 @@
+{
+  "name": "get-gravatar-cli",
+  "version": "0.0.0",
+  "description": "Get a Gravatar image",
+  "license": "MIT",
+  "repository": "SamVerschueren/get-gravatar-cli",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "bin": {
+    "get-gravatar": "cli.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "get-gravatar",
+    "gravatar"
+  ],
+  "dependencies": {
+    "get-gravatar": "^2.0.0",
+    "meow": "^3.3.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "pify": "^2.2.0",
+    "xo": "*"
+  },
+  "xo": {
+    "esnext": true
+  }
+}
