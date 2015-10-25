@@ -22,7 +22,7 @@ if (cli.input.length === 0) {
 	process.exit(1);
 }
 
-getGravatar(cli.input[0], {size: cli.flags.size, default: cli.flags.default, rating: cli.flags.rating}).then(image => {
+getGravatar(cli.input[0], cli.flags).then(image => {
 	fs.writeFileSync(`${cli.input[0]}.png`, image);
 	process.exit(0);
 });

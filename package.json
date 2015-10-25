@@ -13,7 +13,7 @@
     "get-gravatar": "cli.js"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4"
   },
   "scripts": {
     "test": "xo && ava"
@@ -29,7 +29,7 @@
   ],
   "dependencies": {
     "get-gravatar": "^2.0.0",
-    "meow": "^3.3.0"
+    "meow": "^3.4.2"
   },
   "devDependencies": {
     "ava": "*",
